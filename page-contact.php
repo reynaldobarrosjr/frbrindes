@@ -64,7 +64,7 @@ Template Name: Contact Page
 <?php get_template_part('includes/breadcrumbs'); ?>
 	
 <div id="main-area">
-<?php echo get_site_option('admin_email')?>
+
 	<div id="main-content" class="clearfix">
 		<div id="left-column">
 		<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
