@@ -3,7 +3,7 @@
 			<div id="main-area-bottom"></div>
 			
 			<div id="footer">
-				<p id="copyright"><?php esc_html_e('Designed by ','eStore'); ?> <a href="http://www.elegantthemes.com" title="Elegant Themes">Elegant Themes</a> | <?php esc_html_e('Powered by ','eStore'); ?> <a href="http://www.wordpress.org">Wordpress</a></p>
+				<p id="copyright"><a href="http://www.frbrindespromocionais.com.br.com" title="Frbrindes Promocionais">2011 | 2012 - FrBrindes Promocionais</a> | <?php esc_html_e('Desenvolvido por ','eStore'); ?> <a href="http://www.trevobr.com">Trevo</a></p>
 			</div> <!-- #footer-->
 			
 		</div> <!-- .container -->

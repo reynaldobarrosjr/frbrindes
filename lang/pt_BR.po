@@ -1,0 +1,273 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: eStore 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-10-16 18:14-0300\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Reynaldo  <reynaldo@notazul.com>\n"
+"Language-Team: Ann <anochka1985@gmail.com>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED STATES\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPath-1: ..\n"
+
+#: ../footer.php:6
+msgid "Designed by "
+msgstr "Desenvolvido por"
+
+#: ../footer.php:6
+msgid "Powered by "
+msgstr ""
+
+#: ../functions.php:18
+msgid "Primary Menu"
+msgstr ""
+
+#: ../functions.php:19
+msgid "Secondary Menu"
+msgstr ""
+
+#: ../header.php:51
+#: ../header.php:83
+msgid "Home"
+msgstr ""
+
+#: ../header.php:64
+msgid "search this site..."
+msgstr "buscar..."
+
+#: ../page-blog.php:39
+#: ../page-contact.php:80
+#: ../page-full.php:26
+#: ../page-gallery.php:35
+#: ../page-login.php:32
+#: ../page-search.php:32
+#: ../page-search.php:42
+#: ../page-sitemap.php:32
+#: ../page-sitemap.php:36
+#: ../page.php:20
+msgid "Pages"
+msgstr "Páginas"
+
+#: ../page-blog.php:51
+msgid "Posted"
+msgstr "Publicado"
+
+#: ../page-blog.php:51
+msgid "by"
+msgstr "por"
+
+#: ../page-blog.php:51
+msgid "on"
+msgstr "em"
+
+#: ../page-blog.php:51
+msgid "in"
+msgstr ""
+
+#: ../page-blog.php:51
+msgid "0 comments"
+msgstr "0 comentários"
+
+#: ../page-blog.php:51
+msgid "1 comment"
+msgstr "1 comentário"
+
+#: ../page-blog.php:51
+msgid "comments"
+msgstr "comentários"
+
+#: ../page-blog.php:71
+msgid "read more"
+msgstr "leia mais"
+
+#: ../page-blog.php:90
+#: ../page-contact.php:129
+#: ../page-full.php:27
+#: ../page-gallery.php:74
+#: ../page-login.php:49
+#: ../page-search.php:78
+#: ../page-sitemap.php:65
+#: ../page.php:21
+msgid "Edit this page"
+msgstr "Esitar esta página"
+
+#: ../page-contact.php:22
+msgid "Make sure you entered the captcha. "
+msgstr "Veja se você colocou os números corretos"
+
+#: ../page-contact.php:25
+msgid "Numbers regenerated."
+msgstr "Números regerados"
+
+#: ../page-contact.php:26
+msgid "You entered the wrong number in captcha. "
+msgstr "Ops! Você colocou os números errados. "
+
+#: ../page-contact.php:35
+msgid "Make sure you fill all fields. "
+msgstr "Veja se você preencheu todos os campos."
+
+#: ../page-contact.php:40
+msgid "Invalid Email. "
+msgstr "Email Inválido"
+
+#: ../page-contact.php:60
+msgid "Thanks for contacting us"
+msgstr "Obrigado por entrar em contato conosco!"
+
+#: ../page-contact.php:90
+msgid "Name"
+msgstr "Nome"
+
+#: ../page-contact.php:94
+msgid "Email Address"
+msgstr "Email"
+
+#: ../page-contact.php:98
+msgid "Subject"
+msgstr ""
+
+#: ../page-contact.php:105
+msgid "Captcha: "
+msgstr ""
+
+#: ../page-contact.php:116
+msgid "Message"
+msgstr "Mensagem"
+
+#: ../page-contact.php:121
+msgid "Reset"
+msgstr "limpar"
+
+#: ../page-contact.php:122
+#: ../page-search.php:70
+msgid "Submit"
+msgstr "Enviar"
+
+#: ../page-gallery.php:56
+msgid "Zoom in"
+msgstr "Aumentar"
+
+#: ../page-gallery.php:57
+msgid "Read more"
+msgstr "Ler Mais"
+
+#: ../page-login.php:38
+msgid "Username"
+msgstr "Usuário"
+
+#: ../page-login.php:39
+msgid "Password"
+msgstr "Senha"
+
+#: ../page-login.php:43
+msgid "Not a member?"
+msgstr "Não é um membro?"
+
+#: ../page-login.php:43
+msgid "Register today!"
+msgstr ""
+
+#: ../page-search.php:36
+msgid "search this website"
+msgstr ""
+
+#: ../page-search.php:41
+msgid "Posts"
+msgstr ""
+
+#: ../page-search.php:45
+msgid "Select a month"
+msgstr ""
+
+#: ../page-sitemap.php:41
+msgid "Categories"
+msgstr "Categorias"
+
+#: ../page-sitemap.php:46
+msgid "Tags"
+msgstr ""
+
+#: ../page-sitemap.php:58
+msgid "Authors"
+msgstr ""
+
+#: ../searchform.php:4
+msgid "Search"
+msgstr "buscar"
+
+#: ../includes/breadcrumbs.php:8
+msgid "Posts Tagged &quot;"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:10
+#: ../includes/breadcrumbs.php:12
+#: ../includes/breadcrumbs.php:14
+msgid "Posts made in"
+msgstr ""
+
+#: ../includes/breadcrumbs.php:16
+msgid "Search results for"
+msgstr "Resultados da busca por"
+
+#: ../includes/breadcrumbs.php:28
+msgid "Posts by "
+msgstr "Postados por"
+
+#: ../includes/entry.php:26
+#: ../includes/featured.php:67
+#: ../includes/scroller.php:46
+msgid "more info"
+msgstr "detalhes"
+
+#: ../includes/navigation.php:2
+msgid "&laquo; Older Entries"
+msgstr "Anteriores"
+
+#: ../includes/navigation.php:3
+msgid "Next Entries &raquo;"
+msgstr "Próximos"
+
+#: ../includes/no-results.php:3
+msgid "No Results Found"
+msgstr "Não foi encontrado resultado"
+
+#: ../includes/no-results.php:4
+msgid "The page you requested could not be found. Try refining your search, or use the navigation above to locate the post."
+msgstr "A página que você requisitou não foi encontrada. Tente mudar sua busca ou use a navegação do menu."
+
+#: ../includes/scroller.php:1
+msgid "Deals Of The Day"
+msgstr "Promoções do Dia"
+
+#: ../includes/scroller.php:4
+msgid "Previous"
+msgstr "Anteriores"
+
+#: ../includes/scroller.php:60
+msgid "Next"
+msgstr "Próximo"
+
+#: ../includes/single-product.php:40
+msgid "Added"
+msgstr "Adicionado"
+
+#: ../includes/single-product.php:46
+msgid "Add to cart"
+msgstr "Adicionar ao carrinho"
+
+#: ../includes/single-product.php:60
+msgid "Product Information"
+msgstr "Informações do Produto"
+
+#: ../includes/single-product.php:84
+msgid "Related Products"
+msgstr "Veja também"
+

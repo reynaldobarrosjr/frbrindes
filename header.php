@@ -38,7 +38,7 @@
 		<div class="container clearfix">
 			<a href="<?php bloginfo('url'); ?>"><?php $logo = (get_option('estore_logo') <> '') ? get_option('estore_logo') : get_bloginfo('template_directory').'/images/logo.png'; ?>
 				<img src="<?php echo esc_url($logo); ?>" alt="Logo" id="logo"/></a>
-			<div id="contato"><img src="<?php bloginfo('template_directory'); ?>/images/email.png"/><a class="contato" href="http://www.frbrindespromocionais.com.br/contato">  Entre em contato conosco!</a></div>
+			<div id="contato"><a class="contato" href="http://www.frbrindespromocionais.com.br/contato"><img src="<?php bloginfo('template_directory'); ?>/images/envie_email.png"/></a></div>
 			
 			<?php $menuClass = 'nav superfish clearfix';
 			$menuID = 'top-menu';
