@@ -379,13 +379,28 @@ ul#secondary-menu {
 /*------------------------------------------------*/
 
 #sidebar { float: left; width: 238px; padding-left: 2px; margin-top:-6px;background: #3994a2; }
-	#sidebar a { color: #807f7f; text-shadow: 1px 1px 1px #ffffff; }
+	#sidebar a {
+    color: #D2F791;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px #000000;
+}
 		#sidebar a:hover { color: #505050; text-decoration: none; }
 	
 	#sidebar .widget { background: url(images/widget-bottom.png) repeat-x bottom left; padding: 0px 0px 2px; }
-		#sidebar h4.widgettitle { color: #5f5e5e; font-size: 30px; text-transform: lowercase; letter-spacing: 0.5px; background: url(images/widget-title.png) no-repeat bottom left; padding: 14px 5px 11px 25px; text-shadow: 1px 1px 0px #ffffff; }
+		#sidebar h4.widgettitle {
+    background: url("images/widget-title.png") no-repeat scroll left bottom transparent;
+    color: #B8DF77;
+    font-size: 30px;
+    letter-spacing: 0.5px;
+    padding: 14px 5px 11px 25px;
+    text-shadow: 1px 1px 0 #333333;
+    text-transform: lowercase;
+}
 		
-		#sidebar .widget-content { padding: 10px 10px 10px 25px; }
+		#sidebar .widget-content {
+    color: #FFFFFF;
+    padding: 10px 10px 10px 25px;
+}
 			#sidebar .widget ul ul { margin:0 0 0 15px; }
 			#sidebar .widget ul li { background:url("images/list-icon.png") no-repeat scroll 0 13px transparent; padding:7px 0 7px 13px; }
 			#sidebar .widget ul li ul { margin:0 0 -12px; padding:5px 0 0 7px; }
