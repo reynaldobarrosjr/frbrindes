@@ -75,6 +75,7 @@ Template Name: Contact Page
 				?>
 					<h1 class="title"><?php the_title(); ?></h1>
 					<?php the_content(); ?>
+					
 					<div class="clear"></div>
 					<?php wp_link_pages(array('before' => '<p><strong>'.esc_html__('Pages','eStore').':</strong> ', 'after' => '</p>', 'next_or_number' => 'number')); ?>
 					
@@ -85,16 +86,18 @@ Template Name: Contact Page
 						<?php if ( $et_contact_error ) { ?>
 							<form action="<?php echo(get_permalink($post->ID)); ?>" method="post" id="et_contact_form">
 								<div id="et_contact_left">
+								Nome:
 									<p class="clearfix">
-										<input type="text" name="et_contact_name" value="<?php if ( isset($_POST['et_contact_name']) ) echo esc_attr($_POST['et_contact_name']); else esc_attr_e('Name','eStore'); ?>" id="et_contact_name" class="input" />
-									</p>
 									
-									<p class="clearfix">
-										<input type="text" name="et_contact_email" value="<?php if ( isset($_POST['et_contact_email']) ) echo esc_attr($_POST['et_contact_email']); else esc_attr_e('Email Address','eStore'); ?>" id="et_contact_email" class="input" />
+										<input type="text" name="et_contact_name" value="<?php if ( isset($_POST['et_contact_name']) ) echo esc_attr($_POST['et_contact_name']); else esc_attr_e('','eStore'); ?>" id="et_contact_name" class="input" />
 									</p>
-									
+								Email:	
 									<p class="clearfix">
-										<input type="text" name="et_contact_subject" value="<?php if ( isset($_POST['et_contact_subject']) ) echo esc_attr($_POST['et_contact_subject']); else esc_attr_e('Subject','eStore'); ?>" id="et_contact_subject" class="input" />
+										<input type="text" name="et_contact_email" value="<?php if ( isset($_POST['et_contact_email']) ) echo esc_attr($_POST['et_contact_email']); else esc_attr_e('','eStore'); ?>" id="et_contact_email" class="input" />
+									</p>
+								Assunto:	
+									<p class="clearfix">
+										<input type="text" name="et_contact_subject" value="<?php if ( isset($_POST['et_contact_subject']) ) echo esc_attr($_POST['et_contact_subject']); else esc_attr_e('','eStore'); ?>" id="et_contact_subject" class="input" />
 									</p>
 								</div> <!-- #et_contact_left -->
 								
@@ -110,9 +113,9 @@ Template Name: Contact Page
 								</div> <!-- #et_contact_right -->
 								
 								<div class="clear"></div>
-								
+								Mensagem:
 								<p class="clearfix">
-									<textarea class="input" id="et_contact_message" name="et_contact_message"><?php if ( isset($_POST['et_contact_message']) ) echo esc_textarea($_POST['et_contact_message']); else echo esc_textarea('Message','eStore'); ?></textarea>
+									<textarea class="input" id="et_contact_message" name="et_contact_message"><?php if ( isset($_POST['et_contact_message']) ) echo esc_textarea($_POST['et_contact_message']); else echo esc_textarea('','eStore'); ?></textarea>
 								</p>
 									
 								<input type="hidden" name="et_contactform_submit" value="et_contact_proccess" />
