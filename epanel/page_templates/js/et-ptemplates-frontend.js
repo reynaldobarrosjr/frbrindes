@@ -64,10 +64,10 @@ jQuery(document).ready(function() {
 		$et_contact_message = jQuery('#et-contact-message'),
 		et_message = '';
 		
-		form_default_values['et_contact_name'] = 'Name';
-		form_default_values['et_contact_email'] = 'Email Address';
-		form_default_values['et_contact_subject'] = 'Subject';
-		form_default_values['et_contact_message'] = 'Message';
+		form_default_values['et_contact_name'] = 'Nome';
+		form_default_values['et_contact_email'] = 'Email';
+		form_default_values['et_contact_subject'] = 'Assunto';
+		form_default_values['et_contact_message'] = 'Mensagem';
 			
 	$et_inputs.live('focus', function(){
 		if ( jQuery(this).val() === form_default_values[jQuery(this).attr('id')] ) jQuery(this).val("");
@@ -87,9 +87,9 @@ jQuery(document).ready(function() {
 				et_contact_error = true;
 				
 				var default_value = form_default_values[jQuery(domEle).attr('id')];
-				if ( default_value === undefined ) default_value = 'Captcha';
+				if ( default_value === undefined ) default_value = 'C&oacute;digo de Seguran&ccedil;a';
 								
-				et_message += '<li>Fill ' + default_value + ' field</li>';
+				et_message += '<li>Preencha '  + ' o campo '+ default_value + '</li>';
 			}
 			if ( (jQuery(domEle).attr('id') == 'et_contact_email') && !et_email_reg.test(jQuery(domEle).val()) ) {
 				jQuery(domEle).removeClass('et_contact_error').addClass('et_contact_error');
