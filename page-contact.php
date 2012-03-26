@@ -104,7 +104,7 @@ Template Name: Contact Page
 								<div id="et_contact_right">
 									<p class="clearfix">
 										<?php 
-											esc_html_e('Captcha: ','eStore');	
+											esc_html_e('C&oacute;digo de Seguran&ccedil;a: ','eStore');	
 											echo '<br/>';
 											echo esc_attr($et_first_digit) . ' + ' . esc_attr($et_second_digit) . ' = ';
 										?>
